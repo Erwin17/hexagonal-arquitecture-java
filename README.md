@@ -54,10 +54,10 @@ Maven: 3.9
 ```
 
 ## router-inventory
-Es un ejemplo muy basico donde implementamos lo anteriomente explicado en una aplicacion para inveentario de red.
+Es un ejemplo muy basico donde implementamos lo anteriomente explicado en una aplicacion para inventario de red.
 
-En hexagono de dominio puede encontrar Entidades y Object de valor. 
+En el **hexagono de dominio** puede encontrar Entidades y Object de valor. 
 
-En el Hexagono de aplicacion definimos las abtracciones de las operaciones que realizamos. 
+En el **hexagono de aplicacion** definimos las abtracciones de las operaciones que realizamos. 
 
-Y en el hexagono del Framework hacemos uso de los adapter de entrada para recibir la informacion del cliente y el adaprter de salida donde detenemos la operacion de lectura de un archivo externo, que pudo haber sido una solicitud HTTP hacia una fuente externa de informacion.
+Y en el **hexagono del Framework** hacemos uso de los adapter de entrada para recibir la informacion del cliente y el adaprter de salida donde detenemos la operacion de lectura de un archivo externo, que pudo haber sido una solicitud HTTP hacia una fuente externa de informacion.
